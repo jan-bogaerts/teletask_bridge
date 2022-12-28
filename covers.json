@@ -1,0 +1,22 @@
+{
+    "1_motor_2": {
+        "duration_down": 32.61439847946167,
+        "position": 100,
+        "duration_up": 33.941110372543335
+    },
+    "1_motor_8": {
+        "duration_down": 20.55942678451538,
+        "position": 100,
+        "duration_up": 22.320095777511597
+    },
+    "1_motor_7": {
+        "duration_down": 47.99956750869751,
+        "position": 100,
+        "duration_up": 49.641796588897705
+    },
+    "1_motor_6": {
+        "duration_down": 53.11092519760132,
+        "position": 100,
+        "duration_up": 54.84752178192139
+    }
+}

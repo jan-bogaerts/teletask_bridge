@@ -1,0 +1,100 @@
+FNC_RELAY = 1       #(control or get the status of a relay)
+FNC_DIMMER = 2      #(control or get the status of a dimmer)
+FNC_MOTORFNC = 6    #(control or get the status of a Motor)
+FNC_LOCMOOD = 8     #(control or get the status of a Local Mood) 
+FNC_TIMEDMOOD = 9   #(control or get the status of a Timed Local Mood)
+FNC_GENMOOD = 10    #(control or get the status of a General Mood)
+FNC_FLAG = 15       #(control or get the status of a Flag)
+FNC_SENSOR = 20     #(control or get the status of a Sensor zone)
+FNC_AUDIO = 31      #(control or get the status of a Audio zone)
+FNC_PROCES = 3      #(control or get the status of a Process function)
+FNC_REGIME = 14     #(control or get the status of a Regime function)
+FNC_SERVICE = 53    #(control or get the status of a Service function)
+FNC_MESSAGE = 54    #(control or get the status of a Messages or Alarms)
+FNC_COND = 60       #(get the status of a Condition)
+FNC_TPKEY = 52      #(simulate a key press on an interface)
+
+# The Setting can have the following values
+SET_ON = 255
+SET_TOGGLE = 103
+SET_OFF = 0
+SET_DIM = 0 - 100   #(The level to which you want to set the dimmer)
+SET_MTRUP = 1       #(To start a motor in the UP direction)
+SET_MTRDOWN = 2     #(To start a motor in the DOWN direction)
+SET_MTRSTOP = 3     #(To stop a motor)
+SET_MTRSTARTSTOP = 6 #( = PROSOFT motor start stop function)
+SET_MTRUPSTOP = 7   #( = PROSOFT motor up stop function)
+SET_MTRDOWNSTOP = 8 #( = PROSOFT motor start down function)
+SET_MTRUPDOWN = 55  #( = PROSOFT motor up down function)
+SET_AUDIOUP = 32    #(Control Audio Function: Vol. Up)
+SET_AUDIODOWN = 33  #(Control Audio Function: Vol. Down)
+SET_AUDIOON = 36    #(Control Audio Function: On)
+SET_AUDIOOFF = 37   #(Control Audio Function: Off)
+SET_AUDIOFM = 38    #(Control Audio Function: Tuner)
+SET_AUDIOFM2 = 47   #(Control Audio Function: Tuner Extra)
+SET_AUDIOCD = 39    #(Control Audio Function: CD)
+SET_AUDIOCD2 = 48   #(Control Audio Function: CD Extra)
+SET_AUDIOTAPE = 40  #(Control Audio Function: Tape)
+SET_AUDIOTAPE2 = 49 #(Control Audio Function: Tape Extra)
+SET_AUDIOVIDEO = 41 #(Control Audio Function: Video)
+SET_AUDIOVIDEO2 = 43 #(Control Audio Function: Video Extra)
+SET_AUDIOAUX = 42   #(Control Audio Function: Aux)
+SET_AUDIOAUX2 = 35  #(Control Audio Function: Aux Extra)
+SET_AUDIOSRC6 =71
+SET_AUDIOSRC7 = 72
+SET_AUDIOSRC8 = 73
+SET_AUDIOSRC6_2 = 74
+SET_AUDIOSRC7_2 =75
+SET_AUDIOSRC8_2 = 76
+SET_AUDIOMUTE = 77
+SET_AUDIOKEY0 = 78  #(Control Audio Function: Key
+SET_AUDIOKEY1 = 79  #(Control Audio Function: Key)
+SET_AUDIOKEY2 = 80  #(Control Audio Function: Key)
+SET_AUDIOKEY3 = 81  #(Control Audio Function: Key)
+SET_AUDIOKEY4 = 82  #(Control Audio Function: Key)
+SET_AUDIOKEY5 = 83  #(Control Audio Function: Key)
+SET_AUDIOKEY6 = 84  #(Control Audio Function: Key)
+SET_AUDIOKEY7 = 85  #(Control Audio Function: Key)
+SET_AUDIOKEY8 = 86  #(Control Audio Function: Key)
+SET_AUDIOKEY9 = 87  #(Control Audio Function: Key)
+SET_TEMPUP = 21     #(Increase the Temperature target with 0.5°C)
+SET_TEMPDOWN = 22   #(Decrease the Temperature target with 0.5°C)
+SET_TEMPFROST = 24  #(To set the system to frost protection)
+SET_TEMPDAY = 26    #(Set the preset to DAY)
+SET_TEMPNIGHT = 25  #(Set the preset to NIGHT)
+SET_TEMPSTANDBY = 93 #(Set the preset to STANDBY)
+SET_TEMPSETDAY = 29 #(To set the Day preset temperature)
+SET_TEMPSETSTANDBY = 88 #(To set the Standby preset temperature)
+SET_TEMPSETNIGHT = 27 #(To set the Night preset temperature)
+SET_TEMPSPEED = 31  #(To scroll through the different speeds)
+SET_TEMPSPLOW = 97  #(Set speed to Low)
+SET_TEMPSPMED = 98  #(Set speed to Medium)
+SET_TEMPSPHIGH = 99 #(Set speed to High)
+SET_TEMPSPAUTO = 89 #(Set speed to Auto)
+SET_TEMPMODE = 30   #(To scroll through the different modes)
+SET_TEMPAUTO = 94   #(Set mode to Auto)
+SET_TEMPHEAT = 95   #(Set mode to Heat)
+SET_TEMPCOOL = 96   #(Set mode to Cool)
+SET_TEMPVENT = 105  #(Set mode to Vent, Airzone only)
+SET_TEMPSTOP = 106  #(Set mode to Stop, Airzone only)
+SET_TEMPHEATP = 107 #(Set mode to Heat+, Airzone only)
+ 
+SET_TEMPONOFF = 104 #(To toggle between ON and OFF)
+SET_REGAUTO =0      #(set Regime to AUTO)
+SET_REGWORKD = 1    #(set Regime to Workday)
+SET_REGWKEND = 2    #(set Regime to Weekend day)
+SET_REGSIM = 3      #(set Regime to Simulation)
+SET_REGNONE =4      #(set Regime to None)
+SET_REGCUST = 5     #(set custom list on or off)
+SET_PULSE = 1       #(For a "Short" press)
+SET_CLOSED = 2      #(For a long press)
+SET_OPENED = 3      #(For the end of a long press)
+SENS_MAX = 0x3F00   #(the maximum possible value for a sensor
+
+COMMAND_LOG = 0x03
+COMMAND_GET = 0x06
+COMMAND_SET = 0x07
+COMMAND_REPORT = 0x10
+COMMAND_KEEP_ALIVE = 0x0B
+
+COMMAND_ACK = 0x0A

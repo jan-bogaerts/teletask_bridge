@@ -1,0 +1,57 @@
+{
+    "home_assistant": {
+        "discovery_prefix": "homeassistant",
+        "client_id": "telehob",
+        "broker_host": "raspberrypi",
+        "device_id": "teletask_1"
+    },
+    "teletask": {
+        "ip": "192.168.1.2",
+        "port": 55957
+    },
+    "assets": [
+        {"name": "licht keuken tablet", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 1},
+        {"name": "licht Kamer 1 dressing", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 2},
+        {"name": "licht Kamer 1 midden", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 3},
+        {"name": "licht Kamer 1 Wand", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 4},
+        {"name": "licht Kamer 2 midden", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 5},
+
+        {"name": "licht traphal boven", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 6},
+        {"name": "licht keuken tafel", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 7},
+        {"name": "licht keuken eiland", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 8},
+        {"name": "licht traphal beneden", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 9},
+        {"name": "licht Kamer 2 Wand", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 10},
+        {"name": "licht badkamer lavabo", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 11},
+        {"name": "licht tuin achtergevel", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 12},
+        {"name": "licht badkamer midden", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 13},
+        {"name": "licht traphal beneden wand", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 14},
+
+        {"name": "licht Berging", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 15},
+        {"name": "licht trap ledjes", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 16},
+
+        {"name": "licht zolder", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 17},
+
+        {"name": "Verwarming pomp", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 21},
+        {"name": "Verwarming CV K1", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 22},
+        {"name": "Verwarming CV K2", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 23},
+        {"name": "Verwarming badkamer", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 24},
+        {"name": "licht slpkamer 1", "component": "light", "teletask_type": "relay", "central_unit": 1, "teletask_id": 1},
+
+        {"name": "bureau midden", "component": "light", "teletask_type": "dimmer", "central_unit": 1, "teletask_id": 9},
+        {"name": "bureau wand", "component": "light", "teletask_type": "dimmer", "central_unit": 1, "teletask_id": 10},
+
+        {"name": "Kamer 2", "component": "cover", "device_class": "blind", "teletask_type": "motor", "central_unit": 1, "teletask_id": 1},
+        {"name": "Badkamer", "component": "cover", "device_class": "blind", "teletask_type": "motor", "central_unit": 1, "teletask_id": 2},
+        {"name": "hal V1", "component": "cover", "device_class": "blind", "teletask_type": "motor", "central_unit": 1, "teletask_id": 3},
+        {"name": "Dressing", "component": "cover", "device_class": "blind", "teletask_type": "motor", "central_unit": 1, "teletask_id": 4},
+        {"name": "Kamer 1", "component": "cover", "device_class": "blind", "teletask_type": "motor", "central_unit": 1, "teletask_id": 5},
+        {"name": "Keuken", "component": "cover", "device_class": "blind", "teletask_type": "motor", "central_unit": 1, "teletask_id": 6},
+        {"name": "Living", "component": "cover", "device_class": "blind", "teletask_type": "motor", "central_unit": 1, "teletask_id": 7},
+        {"name": "Bureau", "component": "cover", "device_class": "blind", "teletask_type": "motor", "central_unit": 1, "teletask_id": 8},
+
+        {"name": "Living", "component": "sensor", "device_class": "temperature", "unit_of_measurement": "°C", "teletask_type": "sensor", "central_unit": 1, "teletask_id": 3},
+        {"name": "Kamer 1", "component": "sensor", "device_class": "temperature", "unit_of_measurement": "°C", "teletask_type": "sensor", "central_unit": 1, "teletask_id": 4},
+        {"name": "Kamer 2", "component": "sensor", "device_class": "temperature", "unit_of_measurement": "°C", "teletask_type": "sensor", "central_unit": 1, "teletask_id": 5},
+        {"name": "Badkamer", "component": "sensor", "device_class": "temperature", "unit_of_measurement": "°C", "teletask_type": "sensor", "central_unit": 1, "teletask_id": 6}
+    ]
+}
